@@ -7,11 +7,31 @@
 
 /* 主視覺 */
 
-h2, .em {
+h2, h3, h5, .em {
   color: #e40077;
 }
+ 
+.project-img {
+  width: 100%;
+}
 
+.donate-row {
+  background-color: #e40077;
+}
 
+.contact-section a {
+  font-family: 'Times New Roman', Times, serif
+}
+
+#news img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.btn-dark {
+  background-color: #E40077
+}
 
 /* 版型 */
 
@@ -23,8 +43,8 @@ h2, .em {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #E40077;
+  border: 1px solid #E40077;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -46,6 +66,10 @@ h2, .em {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+
+.navbar-brand img {
+  height: 27px
 }
 
 @media (min-width: 992px) {
@@ -85,15 +109,15 @@ h2, .em {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #E40077;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #E40077;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #E40077;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #E40077;
   }
 }
 
@@ -161,20 +185,20 @@ h2, .em {
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #E40077;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #E40077;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #E40077;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #E40077 !important;
 }
 
 .about-section {
@@ -208,7 +232,7 @@ h2, .em {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #E40077;
   }
 }
 
@@ -222,7 +246,7 @@ h2, .em {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #E40077;
     border-width: .25rem;
     width: 30%;
   }
@@ -256,7 +280,7 @@ h2, .em {
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #E40077;
 }
 
 .contact-section .card h4 {
@@ -267,7 +291,7 @@ h2, .em {
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #E40077;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -300,7 +324,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #E40077;
 }
 
 a:focus, a:hover {
@@ -313,13 +337,14 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #E40077 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #E40077 !important;
 }
 
 footer {
+  background-color: #FDE7F0;
   padding: 5rem 0;
 }
