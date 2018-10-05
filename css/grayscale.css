@@ -33,6 +33,11 @@ h2, h3, h5, .em {
   background-color: #E40077;
 }
 
+#logo-img {
+  height: 27px
+}
+
+
 /* 版型 */
 
 #mainNav {
@@ -68,9 +73,6 @@ h2, h3, h5, .em {
   background-color: transparent;
 }
 
-.navbar-brand img {
-  height: 27px
-}
 
 @media (min-width: 992px) {
   #mainNav {
