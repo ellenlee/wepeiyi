@@ -6,9 +6,6 @@
 
 
 /* 主視覺 */
-body {
-  margin-top: 56px;
-}
 
 h2, h3, h4, h5, .em, .text-em {
   color: #e40077;
@@ -16,11 +13,18 @@ h2, h3, h4, h5, .em, .text-em {
 
 .subtitle {
   font-size: 0.9rem;
-  color: #33001b
 }
- 
+
+.text-black {
+  color: #33001b !important;
+}
+
 .project-img {
   width: 100%;
+}
+
+.contact-section {
+  background-color: #e40077;
 }
 
 .donate-row {
@@ -159,7 +163,7 @@ h2, h3, h4, h5, .em, .text-em {
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.png");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg");
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -180,6 +184,11 @@ h2, h3, h4, h5, .em, .text-em {
   font-size: 1rem;
 }
 
+.masthead .container {
+  position: relative;
+  top: 10rem;
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
@@ -190,7 +199,9 @@ h2, h3, h4, h5, .em, .text-em {
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-    padding: 0;
+    /* padding: 0; */
+    padding: 10rem;
+    
   }
   .masthead h1 {
     font-size: 6.5rem;
@@ -219,7 +230,10 @@ h2, h3, h4, h5, .em, .text-em {
 }
 
 .btn-primary:hover {
-  background-color: #E40077;
+  /* background-color: #E40077; */
+  border: 0;
+  background-color: #a50056 !important; 
+  /* color: #e40077; */
 }
 
 .btn-primary:focus {
@@ -304,7 +318,7 @@ h2, h3, h4, h5, .em, .text-em {
 }
 
 .contact-section .card h4 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-family: 'Varela Round';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -320,6 +334,21 @@ h2, h3, h4, h5, .em, .text-em {
   margin-top: 5rem;
 }
 
+.contact-section .card a {
+  border: 1px solid #e40077 !important;
+  background-color: white  !important;
+  /* color: white; */
+  color: #e40077;
+}
+
+.contact-section a:hover {
+  border: 0px !important;
+  background-color: #fbd4e9 !important; 
+  color: #e40077;
+  /* background-color: #E40077  !important; */
+  /* color: white; */
+}
+
 .contact-section .social a {
   text-align: center;
   height: 3rem;
@@ -328,6 +357,10 @@ h2, h3, h4, h5, .em, .text-em {
   border-radius: 100%;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section .card i {
+  font-size: 30px;
 }
 
 .contact-section .social a:hover {
@@ -367,4 +400,14 @@ a:focus, a:hover {
 footer {
   background-color: #FDE7F0;
   padding: 5rem 0;
+}
+
+footer a {
+  font-size: 30px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+footer a:hover {
+  color: #3c6360;
 }

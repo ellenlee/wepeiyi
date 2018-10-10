@@ -61,14 +61,17 @@
 
   <!-- Header -->
   <header class="masthead">
-    <!-- <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start
-          Bootstrap.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+    <div class="container d-flex h-100 align-items-end">
+      <div class="mx-auto text-center h-50">
+        <!-- <h1 class=" mx-auto my-0        text-uppercase">Grayscale</h1> -->
+        <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start          Bootstrap.</h2> -->
+        <div class="mb-5">
+          <a href="#about" class="btn btn-primary js-scroll-trigger">小額捐款</a>
+          <a href="#about" class="btn btn-secondary js-scroll-trigger m-2">認識沛憶</a>
+
+        </div>
       </div>
-    </div> -->
+    </div>
   </header>
 
   <!-- About Section -->
@@ -183,8 +186,10 @@
       <div class="row">
         <div class="col-lg-8 mx-auto text-black-75 text-sm-left">
           <div class="text-center">
-            <h2>陪你報報</h2>
-            <h5 class="subtitle">每期關注一個街區，挖掘萬華、中正歷史人文</h5>
+            <div class="mb-4">
+              <a href="http://wepeiyi.com/"><img src="img/news-cover.png" alt=""></a>
+            </div>
+            <h5 class="subtitle text-em">每期關注一個街區，挖掘萬華、中正歷史人文</h5>
           </div>
           <div class="mt-4 d-flex-sm justify-content-center align-items-center">
             <div>
@@ -193,10 +198,8 @@
               <p>紀錄地方的觀察，規劃未來的藍圖，我們一刻也不想等。</p>
               <p class="em">吳沛憶，陪你，改變台北。</p>
             </div>
-            <div class="mb-4">
-              <a href="http://wepeiyi.com/"><img src="img/news-cover.png" alt=""></a>
-            </div>
-            <div class="mx-5 text-center">
+
+            <div class="mx-5 text-center mt-5">
               <a class="btn btn-dark btn-block" href="http://wepeiyi.com/">點我看報</a>
             </div>
           </div>
@@ -205,65 +208,78 @@
     </div>
   </section>
 
-  <hr class="section-line">
-
   <!-- Donate Section -->
-  <section id="donate" class="contact-section">
+  <section id="donate" class="contact-section mt-5 pt-5">
     <div class="container">
-      <div class="text-center">
-        <h3>支持沛憶</h3>
-        <h5 class="subtitle">改變台北，需要每一個人的參與</h5>
+      <div class="text-center mb-5">
+        <h3 class="text-white">支持沛憶</h3>
+        <h5 class="subtitle text-white-50">改變台北，需要每一個人的參與</h5>
       </div>
-      <div class="my-4 donate-row text-center">
-        <div class="py-3 d-flex-sm flex-column justify-content-center">
-          <h4 class="text-white my-3">小額挺沛憶</h4>
-          <div class="price d-flex justify-content-center">
-            <p>$1,000</p>
-            <p>$500</p>
-            <p>$100</p>
-          </div>
-          <div class="mx-5">
-            <a class="btn btn-block btn-light mt-3 text-em" href="https://donate.spgateway.com/wepeiyi/wepeiyi" target="_blank">點我捐款</a>
-            <p class="small mt-2 text-black-50">沛憶銘記在心，不忘初衷！</p>
+      <div class="row py-5">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-dollar-sign text-primary mb-3"></i>
+              <h4 class="text-uppercase m-0">小額挺沛憶</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">沛憶銘記在心，不忘初衷！</div>
+              <div class="mx-5">
+                <a class="btn btn-block mt-3" href="https://donate.spgateway.com/wepeiyi/wepeiyi" target="_blank">點我捐款</a>
+              </div>
+
+            </div>
           </div>
         </div>
-      </div>
-      <div class="mt-5">
-        <h4 class="text-center mb-3">幫沛憶宣傳</h4>
-        <p>如果你願意在店裡或家門外，放置沛憶海報、布條或小型文宣，請打電話告訴我，謝謝你！</p>
-        <p>聯繫電話：（02）2371-1646</p>
-      </div>
-      <div class="my-4 donate-row py-3">
-        <div class="text-center my-3">
-          <h4 class="text-white">陪沛憶掃街</h4>
-          <p class="text-black-50">一起走進大街小巷，一起改變台北。</p>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-comments text-primary mb-3"></i>
+              <h4 class="text-uppercase m-0">幫沛憶宣傳</h4>
+              <hr class="my-4">
+              <p class="small text-black-50">如果你願意在店裡或家門外，放置沛憶海報、布條或小型文宣，請打電話告訴我，謝謝你！</p>
+              <p class="small text-black-50">聯繫電話：（02）2371-1646</p>
+            </div>
+          </div>
         </div>
-        <div class="mx-5 mb-3">
-          <a class="btn btn-block btn-light mt-3 text-em" style="color: #333;">>點我加入</a>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-handshake text-primary mb-3"></i>
+              <h4 class="text-uppercase m-0">陪沛憶掃街</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">一起走進大街小巷，一起改變台北。</div>
+              <div class="mx-5 mb-3">
+                <a class="btn btn-block mt-3" href="#">點我加入</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="small text-center text-black-50">
-    <div class="d-flex-sm justify-content-center">
-      <div class="text-sm-left">
-        <h6 class="font-weight-bold text-black">吳沛憶競選辦公室</h6>
-        <p>地址：台北市萬華區貴陽街二段104號<br>
-          電話：(02) 2371-1646<br>
-          傳真：(02) 2371-1509<br>
-          開放時間：早上10點至下午6點</p>
-      </div>
-      <hr class="mx-5 my-5 d-none-sm">
-      <div class="text-sm-left">
-        <h6 class="font-weight-bold text-black">隨時保持聯繫</h6>
-        <p>LINE@<br>
-          FACEBOOK<br>
-          INSTAGRAM<br>
-          YOUTUBE</p>
-      </div>
+  <footer class="text-center">
+    <div class="small text-black-50">
+      <h6 class="font-weight-bold text-black">吳沛憶競選辦公室</h6>
+      <p>地址：台北市萬華區貴陽街二段104號<br>
+        電話：(02) 2371-1646<br>
+        傳真：(02) 2371-1509<br>
+        開放時間：早上10點至下午6點</p>
     </div>
+    <div class="social d-flex justify-content-center">
+      <a href="https://line.me/R/ti/p/%40pay1" class="mx-2">
+        <i class="fab fa-line"></i>
+      </a>
+      <a href="https://www.facebook.com/Pay1Pay1/" class="mx-2">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com/pei._wu/?hl=zh-tw" class="mx-2">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCXNZatgjIO7ldMQCVPc8XcQ/featured" class="mx-2">
+        <i class="fab fa-youtube"></i>
+      </a>
   </footer>
 
   <!-- Bootstrap core JavaScript -->
